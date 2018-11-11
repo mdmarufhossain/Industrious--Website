@@ -1,0 +1,131 @@
+/*Body CSS*/
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/*Header CSS*/
+.header-bg {
+    background: black;
+}
+
+.wrap {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 2px;
+
+
+}
+
+.left-content {
+    width: 50%;
+    float: left;
+    line-height: 0px;
+}
+
+.left-content a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.left-content a:hover {
+    color: #a5222b;
+
+}
+
+.right-content {
+    text-align: right;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: #a5222b;
+}
+
+
+
+
+/*Banner CSS*/
+
+.banner-area {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 510px;
+    background-position: center center;
+    background-size: contain;
+}
+
+
+.banner-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(246, 41, 12, 1);
+    background: -moz-linear-gradient(left, rgba(246, 41, 12, 1) 0%, rgba(130, 27, 34, 1) 0%, rgba(48, 5, 1, 0.75) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(246, 41, 12, 1)), color-stop(0%, rgba(130, 27, 34, 1)), color-stop(100%, rgba(48, 5, 1, 0.75)));
+    background: -webkit-linear-gradient(left, rgba(246, 41, 12, 1) 0%, rgba(130, 27, 34, 1) 0%, rgba(48, 5, 1, 0.75) 100%);
+    background: -o-linear-gradient(left, rgba(246, 41, 12, 1) 0%, rgba(130, 27, 34, 1) 0%, rgba(48, 5, 1, 0.75) 100%);
+    background: -ms-linear-gradient(left, rgba(246, 41, 12, 1) 0%, rgba(130, 27, 34, 1) 0%, rgba(48, 5, 1, 0.75) 100%);
+    background: linear-gradient(to right, rgba(246, 41, 12, 1) 0%, rgba(130, 27, 34, 1) 0%, rgba(48, 5, 1, 0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6290c', endColorstr='#300501', GradientType=1);
+    opacity: 0.95;
+    z-index: 1;
+}
+
+
+
+
+
+.banner-content {
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-break: break-all;
+    width: 100%;
+
+}
+
+.banner-content h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 20px;
+}
+
+.banner-content p {
+    font-size: 22px;
+    text-transform: capitalize;
+    color: darkgray;
+    font-weight: 400;
+    line-height: 35px;
+
+}
